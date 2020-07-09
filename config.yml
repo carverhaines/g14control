@@ -2,7 +2,6 @@ app_name: "G14 Control"  # Name of the app, you can customize that as you wish!
 start_on_boot: false    # Set to True to enable starting on boot which adds a windows registry entry
 notification_time: 3  # How long notifications will stay on the screen
 check_power_every: 10  # Seconds in between checks to get the battery/ac status
-plan_change_delay: 0  # Can change this if Armory Crate is overriding plans, see README.md for more details
 default_gaming_plan: null   # Example: "Turbo"
 default_gaming_plan_games: null   # Example list: ["7zFM.exe", "notepad++.exe"]
 default_starting_plan: "Windows"
