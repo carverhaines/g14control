@@ -31,6 +31,8 @@ All done in config.yaml within the root folder of the program. The program must 
 
 `start_on_boot` Set this to `true` or `false`. Note this will create a Windows Registry entry to enable starting on login. Must have files extracted to a permanent location as above. Note: This will popup an administrator UAC prompt the first time you login after each boot. Setting back to false will remove registry key.
 
+Alternatively to make it run on boot WITHOUT UAC prompt, you will have to create a windows task, please see [our Autostart instructions](AUTOSTART.md)
+
 `default_starting_plan` set plan name you want on boot or on restart of the program
 
 `default_ac_plan` This plan name will automatically enable when AC adapter plugged in (set both default_ac_plan and default_dc_plan to `null` to disable this feature)
