@@ -366,7 +366,7 @@ if __name__ == "__main__":
     G14dir = None
     get_app_path()
     config = load_config()  # Make the config available to the whole script
-    if True:  # If running as admin or in debug mode, launch program
+    if is_admin() or config['debug']:  # If running as admin or in debug mode, launch program
         current_plan = config['default_starting_plan']
         default_ac_plan = config['default_ac_plan']
         default_dc_plan = config['default_dc_plan']
